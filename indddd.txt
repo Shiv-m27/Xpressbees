@@ -1,0 +1,68 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>XpressBees Clone</title> 
+	<link rel="stylesheet" type="text/css" href="CSS/style.css">
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div id ="top-header">
+
+			<div id="logo">
+				 <img class="logo-img" sec="logo.png",width="130" height="130" ALT="XpressBees" ALIGN=CENTER>>
+			</div>
+
+			<nav>
+				<div id="Menu">
+					<ul>
+						<li><a href="#">Our SServices</li>
+						<li><a href="#">Industries</li>
+						<li><a href="#">About us</li>
+						<li><a href="#">Careers</li>
+						<li><a href="#">Contact us</li>
+						<li><a href="#">Track Shipment</li>
+						<li><a href="#"><i class="fa fa-fw fa-user"></i>Client Login</li>
+						
+					</ul>
+				</div>
+			</nav>
+			
+		</div>
+
+		<div class="loginbox">
+    		<h1>Track your shipment here</h1>
+    		<form>
+
+    			<input type="radio" id="AWB No" name="shipment" value="AWB no">
+    			<label for="AWB no">AWB no</label><br>
+
+    			<input type="radio" id="order id" name="shipment" value="order id">
+    			<label for="order id">order id</label><br>
+
+   
+    			<input type="text" name="" placeholder="enter AWB no here">
+    			<p>Track multiple orders separated by a comma</p> 
+    			
+    			
+    			<input type="submit" name="" value="submit">
+    			
+    			
+    		</form>
+    	</div>
+	
+	</header>
+
+			<div id="Services">
+            	<h1>Our Services</h1>
+                                          
+				<p>Our tech-empowered solutions offer customised logistics services ranging from collection and storage of goods to transportation and door-step delivery.</p>
+			</div>
+
+
+
+
+	
+</body>
+</html>
